@@ -7,7 +7,7 @@
 
 ```shell
 # ajv-cliのインストール
-sudo npm install -g ajv-cli
+sudo npm install -g ajv-cli ajv-formats
 # 1ファイルのバリデーション
 ajv validate -c ajv-formats -s schema.json -d 202408/noreal_koma-1822589276636303396-01-20240811200200.json
 # 複数ファイルのバリデーション
