@@ -1,0 +1,104 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/MangaItem",
+    "definitions": {
+        "MangaItem": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "pattern": "^https://twitter.com/noreal_koma/status/\\d+"
+                },
+                "publishDate": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "text": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "reading": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "tag": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "series": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "characters": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "suzuri": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/LinkItem"
+                    }
+                },
+                "lineSticker": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/LinkItem"
+                    }
+                },
+                "instagram": {
+                    "type": "string",
+                    "pattern": "(^https://|^$)"
+                },
+                "QRCode": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/LinkItem"
+                    }
+                }
+            },
+            "required": [
+                "id",
+                "publishDate",
+                "reading",
+                "text",
+                "tag",
+                "series",
+                "characters",
+                "suzuri",
+                "lineSticker",
+                "instagram",
+                "QRCode"
+            ],
+            "title": "MangaItem"
+        },
+        "LinkItem": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string",
+                    "pattern": "^https://"
+                }
+            },
+            "required": [
+                "title",
+                "url"
+            ],
+            "title": "LinkItem"
+        }
+    }
+}
