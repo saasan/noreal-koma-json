@@ -16,11 +16,16 @@
         "兵器",
         "ケモミミ",
         "獣耳",
+        "猫耳",
         "ゴーグル",
         "ネクタイ"
     ],
-    "series": [],
-    "characters": [],
+    "series": [
+        "猫魅博士は寝込みたい"
+    ],
+    "characters": [
+        "猫魅博士"
+    ],
     "suzuri": [],
     "lineSticker": [],
     "instagram": "",
