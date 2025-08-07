@@ -23,7 +23,8 @@
                 "reading": {
                     "type": "array",
                     "items": {
-                        "type": "string"
+                        "type": "string",
+                        "pattern": "^[ぁ-ゖー]*$"
                     }
                 },
                 "tag": {
