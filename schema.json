@@ -58,8 +58,11 @@
                     }
                 },
                 "instagram": {
-                    "type": "string",
-                    "pattern": "(^https://|^$)"
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "pattern": "^https://www\\.instagram\\.com/noreal_koma/p/"
+                    }
                 },
                 "QRCode": {
                     "type": "array",
