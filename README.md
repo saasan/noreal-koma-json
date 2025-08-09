@@ -13,3 +13,24 @@ ajv validate -c ajv-formats -s schema.json -d 202408/noreal_koma-182258927663630
 # 複数ファイルのバリデーション
 find 202408 -type f -name '*.json' -print0 | xargs -0 -n1 ajv validate -c ajv-formats -s schema.json -d
 ```
+
+## 空の要素を削除してJSONファイルを結合
+
+```shell
+jq -cn '
+  [
+    inputs
+    | del(.. | select(. == {} or . == [] or . == "" or . == null))
+    | .searchText = (
+        (
+          (.text // []) + 
+          (.reading // []) + 
+          (.tag // []) + 
+          (.series // []) + 
+          (.characters // []) + 
+          ((.suzuri // []) | map(.title // ""))
+        ) | join(" ")
+      )
+  ]
+' 20????/*.json > merged.json
+```
