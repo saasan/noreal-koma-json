@@ -30,7 +30,10 @@
         }
     ],
     "instagram": [
-        "https://www.instagram.com/noreal_koma/p/DFVMeUoSJ85/"
+        {
+            "title": "Instagram",
+            "url": "https://www.instagram.com/noreal_koma/p/DFVMeUoSJ85/"
+        }
     ],
     "QRCode": []
 }

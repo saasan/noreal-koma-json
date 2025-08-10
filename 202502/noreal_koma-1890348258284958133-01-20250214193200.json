@@ -27,8 +27,14 @@
     "suzuri": [],
     "lineSticker": [],
     "instagram": [
-        "https://www.instagram.com/noreal_koma/p/DGDgoxmSsUF/",
-        "https://www.instagram.com/noreal_koma/p/DGDgqpaSsY2/"
+        {
+            "title": "Instagram 獄見九治",
+            "url": "https://www.instagram.com/noreal_koma/p/DGDgoxmSsUF/"
+        },
+        {
+            "title": "Instagram 山野井司",
+            "url": "https://www.instagram.com/noreal_koma/p/DGDgqpaSsY2/"
+        }
     ],
     "QRCode": []
 }

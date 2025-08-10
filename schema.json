@@ -48,20 +48,19 @@
                 "suzuri": {
                     "type": "array",
                     "items": {
-                        "$ref": "#/definitions/LinkItem"
+                        "$ref": "#/definitions/LinkItemSuzuri"
                     }
                 },
                 "lineSticker": {
                     "type": "array",
                     "items": {
-                        "$ref": "#/definitions/LinkItem"
+                        "$ref": "#/definitions/LinkItemLineSticker"
                     }
                 },
                 "instagram": {
                     "type": "array",
                     "items": {
-                        "type": "string",
-                        "pattern": "^https://www\\.instagram\\.com/noreal_koma/p/"
+                        "$ref": "#/definitions/LinkItemInstagram"
                     }
                 },
                 "QRCode": {
@@ -103,6 +102,60 @@
                 "url"
             ],
             "title": "LinkItem"
+        },
+        "LinkItemSuzuri": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string",
+                    "pattern": "^https://suzuri\\.jp/noreal_koma/designs/\\d+$"
+                }
+            },
+            "required": [
+                "title",
+                "url"
+            ],
+            "title": "LinkItemSuzuri"
+        },
+        "LinkItemLineSticker": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string",
+                    "pattern": "^https://store\\.line\\.me/stickershop/product/\\d+/ja$"
+                }
+            },
+            "required": [
+                "title",
+                "url"
+            ],
+            "title": "LinkItemLineSticker"
+        },
+        "LinkItemInstagram": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string",
+                    "pattern": "^https://www\\.instagram\\.com/noreal_koma/p/[^/]+/"
+                }
+            },
+            "required": [
+                "title",
+                "url"
+            ],
+            "title": "LinkItemInstagram"
         }
     }
 }

@@ -29,7 +29,10 @@
     ],
     "lineSticker": [],
     "instagram": [
-        "https://www.instagram.com/noreal_koma/p/DHDvuMIy1_3/"
+        {
+            "title": "Instagram",
+            "url": "https://www.instagram.com/noreal_koma/p/DHDvuMIy1_3/"
+        }
     ],
     "QRCode": []
 }

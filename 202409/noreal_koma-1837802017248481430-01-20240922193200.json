@@ -26,7 +26,10 @@
     "suzuri": [],
     "lineSticker": [],
     "instagram": [
-        "https://www.instagram.com/noreal_koma/p/DFIFL_1So38/"
+        {
+            "title": "Instagram",
+            "url": "https://www.instagram.com/noreal_koma/p/DFIFL_1So38/"
+        }
     ],
     "QRCode": []
 }
