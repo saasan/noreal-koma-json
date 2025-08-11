@@ -8,7 +8,7 @@
             "properties": {
                 "id": {
                     "type": "string",
-                    "pattern": "^https://twitter.com/noreal_koma/status/\\d+"
+                    "pattern": "^(https://twitter\\.com/noreal_koma/status/\\d+|https://www\\.instagram\\.com/p/[^/]+/)$"
                 },
                 "publishDate": {
                     "type": "string",
@@ -148,7 +148,7 @@
                 },
                 "url": {
                     "type": "string",
-                    "pattern": "^https://www\\.instagram\\.com/noreal_koma/p/[^/]+/"
+                    "pattern": "^https://www\\.instagram\\.com/noreal_koma/p/[^/]+/$"
                 }
             },
             "required": [
