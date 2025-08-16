@@ -20,13 +20,11 @@
     "characters": [
         "場美桜子"
     ],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "場美桜子（ソーシエ）",
             "url": "https://suzuri.jp/noreal_koma/designs/17074294"
         }
-    ],
-    "lineSticker": [],
-    "instagram": [],
-    "QRCode": []
+    ]
 }

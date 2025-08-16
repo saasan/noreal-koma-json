@@ -17,22 +17,21 @@
     ],
     "series": [],
     "characters": [],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "シケモク拾って吸う行為をあるあるだと思ってた女",
             "url": "https://suzuri.jp/noreal_koma/designs/16680513"
         },
         {
+            "type": "SUZURI",
             "title": "存在しない漫画の１コマ（女）",
             "url": "https://suzuri.jp/noreal_koma/designs/17480798"
-        }
-    ],
-    "lineSticker": [],
-    "instagram": [
+        },
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DEnEyYzSflH/"
         }
-    ],
-    "QRCode": []
+    ]
 }

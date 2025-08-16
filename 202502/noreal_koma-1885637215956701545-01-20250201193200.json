@@ -16,18 +16,16 @@
         "黒々漆子",
         "双城尾鶴"
     ],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "双城尾 鶴、黒々 漆子、吹鴫 ナユ太、星見鳥 心",
             "url": "https://suzuri.jp/noreal_koma/designs/17334796"
-        }
-    ],
-    "lineSticker": [],
-    "instagram": [
+        },
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DFnDhixy-P-/"
         }
-    ],
-    "QRCode": []
+    ]
 }

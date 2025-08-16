@@ -15,18 +15,16 @@
     ],
     "series": [],
     "characters": [],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "テニス部部長・浅岡輝雄",
             "url": "https://suzuri.jp/noreal_koma/designs/17334784"
-        }
-    ],
-    "lineSticker": [],
-    "instagram": [
+        },
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DGc94x5SyRH/"
         }
-    ],
-    "QRCode": []
+    ]
 }

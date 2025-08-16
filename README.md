@@ -28,7 +28,7 @@ jq -cn '
           (.tag // []) + 
           (.series // []) + 
           (.characters // []) + 
-          ((.suzuri // []) | map(.title // ""))
+          ((.relatedLinks // []) | map(.title // ""))
         ) | join(" ")
       )
   ]

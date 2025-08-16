@@ -19,11 +19,9 @@
     ],
     "series": [],
     "characters": [],
-    "suzuri": [],
-    "lineSticker": [],
-    "instagram": [],
-    "QRCode": [
+    "relatedLinks": [
         {
+            "type": "QRコード",
             "title": "Maharaja HamPacinoⅡ - マハラジャ・ハムパチーノⅡ",
             "url": "https://youtu.be/1tVh75BEJYg?si=LzQq1MhgFsvc7lVK"
         }

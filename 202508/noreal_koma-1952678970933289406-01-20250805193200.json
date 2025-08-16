@@ -24,13 +24,11 @@
         "場美桜子",
         "マティアス・デスカトワール"
     ],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "場美桜子&マティアス・デスカトワール",
             "url": "https://suzuri.jp/noreal_koma/designs/18351208"
         }
-    ],
-    "lineSticker": [],
-    "instagram": [],
-    "QRCode": []
+    ]
 }

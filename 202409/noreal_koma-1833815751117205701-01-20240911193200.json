@@ -26,18 +26,16 @@
         "黒々漆子",
         "吹鴫ナユ太"
     ],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "黒々漆子と吹鴫ナユ太",
             "url": "https://suzuri.jp/noreal_koma/designs/16680482"
-        }
-    ],
-    "lineSticker": [],
-    "instagram": [
+        },
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DEzh6i9yZL5/"
         }
-    ],
-    "QRCode": []
+    ]
 }

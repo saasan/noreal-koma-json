@@ -20,13 +20,11 @@
     "characters": [
         "場美桜子"
     ],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "存在しない漫画の１コマ（女）",
             "url": "https://suzuri.jp/noreal_koma/designs/17480798"
         }
-    ],
-    "lineSticker": [],
-    "instagram": [],
-    "QRCode": []
+    ]
 }

@@ -12,13 +12,11 @@
     "tag": [],
     "series": [],
     "characters": [],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "無限ヤンキー",
             "url": "https://suzuri.jp/noreal_koma/designs/17073720"
         }
-    ],
-    "lineSticker": [],
-    "instagram": [],
-    "QRCode": []
+    ]
 }

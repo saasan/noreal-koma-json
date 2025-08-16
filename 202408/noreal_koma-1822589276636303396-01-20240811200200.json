@@ -19,18 +19,16 @@
     "characters": [
         "極悪人に可愛さを見出すギャル"
     ],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "極悪人に可愛さを見出すギャル",
             "url": "https://suzuri.jp/noreal_koma/designs/17074227"
-        }
-    ],
-    "lineSticker": [],
-    "instagram": [
+        },
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DEm9AasSAR0/"
         }
-    ],
-    "QRCode": []
+    ]
 }

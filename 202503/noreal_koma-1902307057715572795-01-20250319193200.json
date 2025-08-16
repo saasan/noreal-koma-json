@@ -20,13 +20,11 @@
     "characters": [
         "狐鳴紺一"
     ],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "狐鳴 紺一（こなり こんいち）",
             "url": "https://suzuri.jp/noreal_koma/designs/17575143"
         }
-    ],
-    "lineSticker": [],
-    "instagram": [],
-    "QRCode": []
+    ]
 }

@@ -22,13 +22,11 @@
     "characters": [
         "倉三沢あかね"
     ],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "こっくり部副部長　倉三沢あかね",
             "url": "https://suzuri.jp/noreal_koma/designs/18351229"
         }
-    ],
-    "lineSticker": [],
-    "instagram": [],
-    "QRCode": []
+    ]
 }

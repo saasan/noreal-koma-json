@@ -12,18 +12,16 @@
     "tag": [],
     "series": [],
     "characters": [],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "人前で鼻もほじるし屁もゲップもする女",
             "url": "https://suzuri.jp/noreal_koma/designs/17268532"
-        }
-    ],
-    "lineSticker": [],
-    "instagram": [
+        },
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DFsUZWQSyNd/"
         }
-    ],
-    "QRCode": []
+    ]
 }
