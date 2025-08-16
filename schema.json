@@ -45,28 +45,10 @@
                         "type": "string"
                     }
                 },
-                "suzuri": {
+                "relatedLinks": {
                     "type": "array",
                     "items": {
-                        "$ref": "#/definitions/LinkItemSuzuri"
-                    }
-                },
-                "lineSticker": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/LinkItemLineSticker"
-                    }
-                },
-                "instagram": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/LinkItemInstagram"
-                    }
-                },
-                "QRCode": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/LinkItem"
+                        "$ref": "#/definitions/RelatedLink"
                     }
                 }
             },
@@ -78,17 +60,23 @@
                 "tag",
                 "series",
                 "characters",
-                "suzuri",
-                "lineSticker",
-                "instagram",
-                "QRCode"
+                "relatedLinks"
             ],
             "title": "MangaItem"
         },
-        "LinkItem": {
+        "RelatedLink": {
             "type": "object",
             "additionalProperties": false,
             "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "SUZURI",
+                        "LINEスタンプ",
+                        "Instagram",
+                        "QRコード"
+                    ]
+                },
                 "title": {
                     "type": "string"
                 },
@@ -98,64 +86,81 @@
                 }
             },
             "required": [
+                "type",
                 "title",
                 "url"
             ],
-            "title": "LinkItem"
-        },
-        "LinkItemSuzuri": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-                "title": {
-                    "type": "string"
+            "title": "RelatedLink",
+            "allOf": [
+                {
+                    "if": {
+                        "properties": {
+                            "type": {
+                                "const": "SUZURI"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "url": {
+                                "type": "string",
+                                "pattern": "^https://suzuri\\.jp/noreal_koma/designs/\\d+$"
+                            }
+                        }
+                    }
                 },
-                "url": {
-                    "type": "string",
-                    "pattern": "^https://suzuri\\.jp/noreal_koma/designs/\\d+$"
-                }
-            },
-            "required": [
-                "title",
-                "url"
-            ],
-            "title": "LinkItemSuzuri"
-        },
-        "LinkItemLineSticker": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-                "title": {
-                    "type": "string"
+                {
+                    "if": {
+                        "properties": {
+                            "type": {
+                                "const": "LINEスタンプ"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "url": {
+                                "type": "string",
+                                "pattern": "^https://store\\.line\\.me/stickershop/product/\\d+/ja$"
+                            }
+                        }
+                    }
                 },
-                "url": {
-                    "type": "string",
-                    "pattern": "^https://store\\.line\\.me/stickershop/product/\\d+/ja$"
-                }
-            },
-            "required": [
-                "title",
-                "url"
-            ],
-            "title": "LinkItemLineSticker"
-        },
-        "LinkItemInstagram": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-                "title": {
-                    "type": "string"
+                {
+                    "if": {
+                        "properties": {
+                            "type": {
+                                "const": "Instagram"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "url": {
+                                "type": "string",
+                                "pattern": "^https://www\\.instagram\\.com/noreal_koma/p/[^/]+/$"
+                            }
+                        }
+                    }
                 },
-                "url": {
-                    "type": "string",
-                    "pattern": "^https://www\\.instagram\\.com/noreal_koma/p/[^/]+/$"
+                {
+                    "if": {
+                        "properties": {
+                            "type": {
+                                "const": "QRコード"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "url": {
+                                "type": "string",
+                                "pattern": "^https://"
+                            }
+                        }
+                    }
                 }
-            },
-            "required": [
-                "title",
-                "url"
-            ],
-            "title": "LinkItemInstagram"
+            ]
         }
     }
 }

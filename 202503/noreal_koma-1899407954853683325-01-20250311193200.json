@@ -12,13 +12,11 @@
     "tag": [],
     "series": [],
     "characters": [],
-    "suzuri": [],
-    "lineSticker": [],
-    "instagram": [
+    "relatedLinks": [
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DHDvrVSSkBv/"
         }
-    ],
-    "QRCode": []
+    ]
 }

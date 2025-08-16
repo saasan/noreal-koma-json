@@ -24,13 +24,11 @@
     "characters": [
         "狐鳴紺子郎"
     ],
-    "suzuri": [],
-    "lineSticker": [],
-    "instagram": [
+    "relatedLinks": [
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DF5CihtybFc/"
         }
-    ],
-    "QRCode": []
+    ]
 }

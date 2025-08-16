@@ -27,16 +27,14 @@
     ],
     "series": [],
     "characters": [],
-    "suzuri": [],
-    "lineSticker": [],
-    "instagram": [
+    "relatedLinks": [
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DFcxB3_yJ5I/"
-        }
-    ],
-    "QRCode": [
+        },
         {
+            "type": "QRコード",
             "title": "New year greeting from Ham Pacino 2025 - ハムパチーノの新年のご挨拶 2025",
             "url": "https://www.youtube.com/watch?v=TM2OfhoSSF4"
         }

@@ -20,13 +20,11 @@
         "狐鳴紺子郎",
         "狐鳴紺一"
     ],
-    "suzuri": [],
-    "lineSticker": [],
-    "instagram": [
+    "relatedLinks": [
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DH8bareyLXG/"
         }
-    ],
-    "QRCode": []
+    ]
 }

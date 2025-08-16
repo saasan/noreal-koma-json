@@ -15,18 +15,16 @@
     ],
     "series": [],
     "characters": [],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "遊べないタイプの迷路の絵",
             "url": "https://suzuri.jp/noreal_koma/designs/17073692"
-        }
-    ],
-    "lineSticker": [],
-    "instagram": [
+        },
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DFcxD6py3pB/"
         }
-    ],
-    "QRCode": []
+    ]
 }

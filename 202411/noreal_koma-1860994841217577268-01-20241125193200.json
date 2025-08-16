@@ -19,11 +19,9 @@
     ],
     "series": [],
     "characters": [],
-    "suzuri": [],
-    "lineSticker": [],
-    "instagram": [],
-    "QRCode": [
+    "relatedLinks": [
         {
+            "type": "QRコード",
             "title": "Ham Pacino・Mucho！ - ハムパチーノ・ムーチョ！",
             "url": "https://www.youtube.com/watch?v=p97k9VcNRMA"
         }

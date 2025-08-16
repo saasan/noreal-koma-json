@@ -18,27 +18,26 @@
     "characters": [
         "赤ヶ崎晴彦"
     ],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "赤ヶ崎晴彦（空手部副部長）",
             "url": "https://suzuri.jp/noreal_koma/designs/17073723"
         },
         {
+            "type": "SUZURI",
             "title": "存在しない漫画の１コマ（男）",
             "url": "https://suzuri.jp/noreal_koma/designs/17480388"
-        }
-    ],
-    "lineSticker": [
+        },
         {
+            "type": "LINEスタンプ",
             "title": "存在しない漫画のLINEスタンプ",
             "url": "https://store.line.me/stickershop/product/28740714/ja"
-        }
-    ],
-    "instagram": [
+        },
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DFsUWimSn3d/"
         }
-    ],
-    "QRCode": []
+    ]
 }

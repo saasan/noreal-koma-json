@@ -18,18 +18,16 @@
     ],
     "series": [],
     "characters": [],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "アニメ研究部部長（と副部長）",
             "url": "https://suzuri.jp/noreal_koma/designs/17575170"
-        }
-    ],
-    "lineSticker": [],
-    "instagram": [
+        },
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DIQ8P2TS71z/"
         }
-    ],
-    "QRCode": []
+    ]
 }

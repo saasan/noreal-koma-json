@@ -14,18 +14,16 @@
     "characters": [
         "西村尊"
     ],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "学園祭の準備中に高熱で倒れる西村尊くん",
             "url": "https://suzuri.jp/noreal_koma/designs/17268521"
-        }
-    ],
-    "lineSticker": [],
-    "instagram": [
+        },
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DFnDj2cS9GX/"
         }
-    ],
-    "QRCode": []
+    ]
 }

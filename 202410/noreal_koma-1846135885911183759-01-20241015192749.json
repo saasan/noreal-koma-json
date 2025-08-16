@@ -16,11 +16,9 @@
     ],
     "series": [],
     "characters": [],
-    "suzuri": [],
-    "lineSticker": [],
-    "instagram": [],
-    "QRCode": [
+    "relatedLinks": [
         {
+            "type": "QRコード",
             "title": "Maharaja HamPacino - マハラジャ・ハムパチーノ",
             "url": "https://www.youtube.com/watch?v=RirZDhCw2_s"
         }

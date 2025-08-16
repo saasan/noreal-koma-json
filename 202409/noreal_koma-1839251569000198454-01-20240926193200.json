@@ -16,13 +16,11 @@
     "tag": [],
     "series": [],
     "characters": [],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "サイコパス",
             "url": "https://suzuri.jp/noreal_koma/designs/17073752"
         }
-    ],
-    "lineSticker": [],
-    "instagram": [],
-    "QRCode": []
+    ]
 }

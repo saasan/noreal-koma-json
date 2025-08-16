@@ -17,23 +17,21 @@
     ],
     "series": [],
     "characters": [],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "引いたカードに書かれた人物の内臓を破壊するゲーム",
             "url": "https://suzuri.jp/noreal_koma/designs/17268462"
-        }
-    ],
-    "lineSticker": [
+        },
         {
+            "type": "LINEスタンプ",
             "title": "存在しない漫画のLINEスタンプ 第２弾",
             "url": "https://store.line.me/stickershop/product/30111083/ja"
-        }
-    ],
-    "instagram": [
+        },
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DFVMeUoSJ85/"
         }
-    ],
-    "QRCode": []
+    ]
 }

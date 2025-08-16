@@ -16,13 +16,11 @@
     "characters": [
         "小野沢ユリト"
     ],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "小野沢ユリト",
             "url": "https://suzuri.jp/noreal_koma/designs/17759441"
         }
-    ],
-    "lineSticker": [],
-    "instagram": [],
-    "QRCode": []
+    ]
 }

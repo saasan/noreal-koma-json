@@ -23,13 +23,11 @@
     "characters": [
         "コロちゃん"
     ],
-    "suzuri": [],
-    "lineSticker": [],
-    "instagram": [
+    "relatedLinks": [
         {
+            "type": "Instagram",
             "title": "Instagram",
             "url": "https://www.instagram.com/noreal_koma/p/DFIFL_1So38/"
         }
-    ],
-    "QRCode": []
+    ]
 }

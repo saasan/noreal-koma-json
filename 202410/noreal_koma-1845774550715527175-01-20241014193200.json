@@ -20,13 +20,11 @@
     ],
     "series": [],
     "characters": [],
-    "suzuri": [
+    "relatedLinks": [
         {
+            "type": "SUZURI",
             "title": "対戦型剣道ゲーム「KEN DOUCEUR」",
             "url": "https://suzuri.jp/noreal_koma/designs/17073733"
         }
-    ],
-    "lineSticker": [],
-    "instagram": [],
-    "QRCode": []
+    ]
 }
