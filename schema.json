@@ -74,7 +74,8 @@
                         "SUZURI",
                         "LINEスタンプ",
                         "Instagram",
-                        "QRコード"
+                        "QRコード",
+                        "関連"
                     ]
                 },
                 "title": {
@@ -148,6 +149,23 @@
                         "properties": {
                             "type": {
                                 "const": "QRコード"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "url": {
+                                "type": "string",
+                                "pattern": "^https://"
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "type": {
+                                "const": "関連"
                             }
                         }
                     },
