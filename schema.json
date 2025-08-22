@@ -8,11 +8,11 @@
             "properties": {
                 "id": {
                     "type": "string",
-                    "pattern": "^(https://x\\.com/noreal_koma/status/\\d+|https://www\\.instagram\\.com/p/[^/]+/|https://suzuri\\.jp/noreal_koma/designs/\\d+)$"
+                    "pattern": "^(https://x\\.com/noreal_koma/status/\\d+|https://www\\.instagram\\.com/p/[^/]+/|https://suzuri\\.jp/noreal_koma/designs/\\d+|https://www\\.youtube\\.com/watch\\?v=[\\w-]{11})$"
                 },
                 "embed": {
                     "type": "string",
-                    "pattern": "^(https://twitter\\.com/noreal_koma/status/\\d+|https://www\\.instagram\\.com/p/[^/]+/|https://suzuri\\.jp/noreal_koma/\\d+/.+/embed)$"
+                    "pattern": "^(https://twitter\\.com/noreal_koma/status/\\d+|https://www\\.instagram\\.com/p/[^/]+/|https://suzuri\\.jp/noreal_koma/\\d+/.+/embed|https://www\\.youtube\\.com/embed/[\\w-]{11}(\\?start=\\d+)?)$"
                 },
                 "publishDate": {
                     "type": "string",
